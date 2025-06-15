@@ -163,7 +163,7 @@ results/
 
 ### 缓存配置对比 (Cache Configuration Comparison)
 
-| 配置类型 | L1 Cache Size | L2 Cache Size | L1 Associativity | L2 Associativity |
+| 配置 | L1 Cache Size | L2 Cache Size | L1 Associativity | L2 Associativity |
 |----------|---------------|---------------|------------------|------------------|
 | Small Cache | 16kB | 256kB | 4-way | 8-way |
 | Medium Cache | 32kB | 512kB | 4-way | 8-way |
@@ -171,24 +171,24 @@ results/
 
 ### 系统配置 (System Configuration)
 
-- **CPU类型**: TimingSimpleCPU (RISC-V)
-- **CPU核心数**: 2
-- **时钟频率**: 3GHz
-- **内存**: 2GB DDR3-1600
-- **协议**: MESI缓存一致性协议
+- **CPU**: TimingSimpleCPU (RISC-V)
+- **CPU Core**: 2
+- **CLK FREQUENCY**: 3GHz
+- **DRAM**: 2GB DDR3-1600
+- **協議**: MESI缓存一致性协议
 
-## 性能指标 (Performance Metrics)
+## (Performance Metrics)
 
-### 主要观察指标 (Key Metrics)
+### (Key Metrics)
 
 1. **L1缓存命中率** (L1 Cache Hit Rate)
 2. **L2缓存命中率** (L2 Cache Hit Rate)
-3. **缓存缺失次数** (Cache Miss Count)
-4. **模拟执行时间** (Simulation Time)
+3. **缓存miss次数** (Cache Miss Count)
+4. **Simulation** (Simulation Time)
 5. **平均CPI** (Average CPI)
-6. **缓存访问次数** (Cache Access Count)
+6. **Access Count** (Cache Access Count)
 
-### 性能结果示例 (Sample Performance Results)
+### (Sample Performance Results)
 
 ```
 Configuration: Small Cache
