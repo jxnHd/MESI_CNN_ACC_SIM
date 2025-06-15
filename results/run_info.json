@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-06-16T04:42:02.206592",
+  "duration": "0:00:13.324696",
+  "configurations": {
+    "Small Cache": {
+      "success": true,
+      "description": "L1=16KB, L2=256KB",
+      "output_dir": "results/small_cache"
+    },
+    "Medium Cache": {
+      "success": true,
+      "description": "L1=32KB, L2=512KB",
+      "output_dir": "results/medium_cache"
+    },
+    "Large Cache": {
+      "success": true,
+      "description": "L1=64KB, L2=1MB",
+      "output_dir": "results/large_cache"
+    }
+  }
+}

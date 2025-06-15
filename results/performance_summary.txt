@@ -1,0 +1,40 @@
+MESI Protocol Configuration Performance Comparison Report
+============================================================
+Generated: 2025-06-16 04:42:29
+
+Configuration: Small Cache
+----------------------------------------
+L1 Cache Hit Rate: 99.36%
+L2 Cache Hit Rate: 54.42%
+L1 Total Misses: 6,734
+L2 Total Misses: 3,569
+Simulation Time: 0.003 seconds
+Average CPI: 2.850
+Total Instructions: 5,270,544
+
+Configuration: Medium Cache
+----------------------------------------
+L1 Cache Hit Rate: 99.39%
+L2 Cache Hit Rate: 52.00%
+L1 Total Misses: 6,440
+L2 Total Misses: 3,552
+Simulation Time: 0.003 seconds
+Average CPI: 2.849
+Total Instructions: 5,270,544
+
+Configuration: Large Cache
+----------------------------------------
+L1 Cache Hit Rate: 99.40%
+L2 Cache Hit Rate: 51.53%
+L1 Total Misses: 6,389
+L2 Total Misses: 3,552
+Simulation Time: 0.002 seconds
+Average CPI: 2.848
+Total Instructions: 5,270,544
+
+Performance Rankings
+------------------------------
+L1 Hit Rate Ranking: Large Cache > Medium Cache > Small Cache
+L2 Hit Rate Ranking: Small Cache > Medium Cache > Large Cache
+Execution Speed Ranking: Large Cache > Medium Cache > Small Cache
+CPI Performance Ranking: Large Cache > Medium Cache > Small Cache
