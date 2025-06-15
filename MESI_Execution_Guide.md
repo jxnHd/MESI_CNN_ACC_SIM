@@ -175,7 +175,7 @@ results/
 - **CPU Core**: 2
 - **CLK FREQUENCY**: 3GHz
 - **DRAM**: 2GB DDR3-1600
-- **協議**: MESI缓存一致性协议
+- **協議**: MESI
 
 ## (Performance Metrics)
 
