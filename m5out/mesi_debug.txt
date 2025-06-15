@@ -1,0 +1,519 @@
+1003995: system.l2cache: sendMSHRQueuePacket: MSHR ReadSharedReq [83f00:83f3f] IF
+1003995: system.l2cache: createMissPacket: created ReadSharedReq [83f00:83f3f] IF from ReadSharedReq [83f00:83f3f] IF
+1065933: system.l2cache: recvTimingResp: Handling response ReadResp [14f00:14f3f] IF
+1065933: system.l2cache: Block for addr 0x14f00 being updated in Cache
+1065933: system.l2cache: Block addr 0x14f00 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1 secure: 0 valid: 1 | set: 0x13c way: 0
+1072926: system.l1_icache0: recvTimingResp: Handling response ReadResp [14f00:14f3f] IF
+1072926: system.l1_icache0: Block for addr 0x14f00 being updated in Cache
+1072926: system.l1_icache0: Block addr 0x14f00 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1073592: system.l1_dcache0: access for ReadReq [6ef60:6ef67] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1b secure: 0 valid: 1 | set: 0xbd way: 0
+1073592: system.l2cache: recvTimingResp: Handling response ReadResp [83f00:83f3f] IF
+1073592: system.l2cache: Block for addr 0x83f00 being updated in Cache
+1073592: system.l2cache: Block addr 0x83f00 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x8 secure: 0 valid: 1 | set: 0xfc way: 0
+1074258: system.l1_icache0: access for ReadReq [14f00:14f03] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1074924: system.l1_icache0: access for ReadReq [14f04:14f07] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1075590: system.l1_icache0: access for ReadReq [14ee8:14eeb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1076256: system.l1_icache0: access for ReadReq [14eec:14eef] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1076922: system.l1_icache0: access for ReadReq [14ef0:14ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1077588: system.l1_icache0: access for ReadReq [14ef0:14ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1078254: system.l1_icache0: access for ReadReq [14ef4:14ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1078920: system.l1_dcache0: access for ReadReq [451c0:451c3] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x11 secure: 0 valid: 1 | set: 0x47 way: 0
+1079586: system.l1_icache0: access for ReadReq [14ef4:14ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1080252: system.l1_icache0: access for ReadReq [14ef8:14efb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1080585: system.l1_icache1: recvTimingResp: Handling response ReadResp [83f00:83f3f] IF
+1080585: system.l1_icache1: Block for addr 0x83f00 being updated in Cache
+1080585: system.l1_icache1: Block addr 0x83f00 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1080918: system.l1_icache0: access for ReadReq [150a4:150a7] IF miss
+1081251: system.l1_dcache1: access for ReadReq [ddf60:ddf67] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x37 secure: 0 valid: 1 | set: 0x7d way: 0
+1081584: system.l1_icache0: sendMSHRQueuePacket: MSHR ReadReq [150a4:150a7] IF
+1081584: system.l1_icache0: createMissPacket: created ReadSharedReq [15080:150bf] IF from ReadReq [150a4:150a7] IF
+1081584: system.l2cache: access for ReadSharedReq [15080:150bf] IF miss
+1081917: system.l1_icache1: access for ReadReq [83f00:83f03] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1082583: system.l1_icache1: access for ReadReq [83f04:83f07] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1083249: system.l1_icache1: access for ReadReq [83ee8:83eeb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1083915: system.l1_icache1: access for ReadReq [83eec:83eef] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1084581: system.l1_icache1: access for ReadReq [83ef0:83ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1085247: system.l1_icache1: access for ReadReq [83ef0:83ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1085913: system.l1_icache1: access for ReadReq [83ef4:83ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1086579: system.l1_dcache1: access for ReadReq [b41c0:b41c3] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x2d secure: 0 valid: 1 | set: 0x7 way: 0
+1087245: system.l1_icache1: access for ReadReq [83ef4:83ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1087911: system.l1_icache1: access for ReadReq [83ef8:83efb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1088577: system.l1_icache1: access for ReadReq [840a4:840a7] IF miss
+1088577: system.l2cache: sendMSHRQueuePacket: MSHR ReadSharedReq [15080:150bf] IF
+1088577: system.l2cache: createMissPacket: created ReadSharedReq [15080:150bf] IF from ReadSharedReq [15080:150bf] IF
+1089243: system.l1_icache1: sendMSHRQueuePacket: MSHR ReadReq [840a4:840a7] IF
+1089243: system.l1_icache1: createMissPacket: created ReadSharedReq [84080:840bf] IF from ReadReq [840a4:840a7] IF
+1089243: system.l2cache: access for ReadSharedReq [84080:840bf] IF miss
+1096236: system.l2cache: sendMSHRQueuePacket: MSHR ReadSharedReq [84080:840bf] IF
+1096236: system.l2cache: createMissPacket: created ReadSharedReq [84080:840bf] IF from ReadSharedReq [84080:840bf] IF
+1130868: system.l2cache: recvTimingResp: Handling response ReadResp [15080:150bf] IF
+1130868: system.l2cache: Block for addr 0x15080 being updated in Cache
+1130868: system.l2cache: Block addr 0x15080 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1 secure: 0 valid: 1 | set: 0x142 way: 0
+1137861: system.l1_icache0: recvTimingResp: Handling response ReadResp [15080:150bf] IF
+1137861: system.l1_icache0: Block for addr 0x15080 being updated in Cache
+1137861: system.l1_icache0: Block addr 0x15080 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1138527: system.l1_dcache0: access for ReadReq [6ef68:6ef6f] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1b secure: 0 valid: 1 | set: 0xbd way: 0
+1139193: system.l1_icache0: access for ReadReq [150a4:150a7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1139859: system.l1_icache0: access for ReadReq [150a8:150ab] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1140525: system.l1_icache0: access for ReadReq [150a8:150ab] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1141191: system.l1_dcache0: access for WriteReq [6ee40:6ee47] hit state: e (M) writable: 1 readable: 1 dirty: 1 prefetched: 0 | tag: 0x1b secure: 0 valid: 1 | set: 0xb9 way: 0
+1141857: system.l1_icache0: access for ReadReq [150ac:150af] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1142523: system.l1_dcache0: access for ReadReq [6ef70:6ef77] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1b secure: 0 valid: 1 | set: 0xbd way: 0
+1143189: system.l1_icache0: access for ReadReq [150ac:150af] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1143855: system.l1_icache0: access for ReadReq [150b0:150b3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1144521: system.l1_icache0: access for ReadReq [14ee8:14eeb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1145187: system.l1_icache0: access for ReadReq [14eec:14eef] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1145853: system.l1_icache0: access for ReadReq [14ef0:14ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1146519: system.l1_icache0: access for ReadReq [14ef0:14ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1147185: system.l1_icache0: access for ReadReq [14ef4:14ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1147851: system.l1_dcache0: access for ReadReq [451bc:451bf] miss
+1148517: system.l1_dcache0: sendMSHRQueuePacket: MSHR ReadReq [451bc:451bf]
+1148517: system.l1_dcache0: createMissPacket: created ReadSharedReq [45180:451bf] from ReadReq [451bc:451bf]
+1148517: system.l2cache: access for ReadSharedReq [45180:451bf] miss
+1155510: system.l2cache: sendMSHRQueuePacket: MSHR ReadSharedReq [45180:451bf]
+1155510: system.l2cache: createMissPacket: created ReadSharedReq [45180:451bf] from ReadSharedReq [45180:451bf]
+1165833: system.l2cache: recvTimingResp: Handling response ReadResp [84080:840bf] IF
+1165833: system.l2cache: Block for addr 0x84080 being updated in Cache
+1165833: system.l2cache: Block addr 0x84080 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x8 secure: 0 valid: 1 | set: 0x102 way: 0
+1172826: system.l1_icache1: recvTimingResp: Handling response ReadResp [84080:840bf] IF
+1172826: system.l1_icache1: Block for addr 0x84080 being updated in Cache
+1172826: system.l1_icache1: Block addr 0x84080 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1173492: system.l1_dcache1: access for ReadReq [ddf68:ddf6f] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x37 secure: 0 valid: 1 | set: 0x7d way: 0
+1174158: system.l1_icache1: access for ReadReq [840a4:840a7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1174824: system.l1_icache1: access for ReadReq [840a8:840ab] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1175490: system.l1_icache1: access for ReadReq [840a8:840ab] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1176156: system.l1_dcache1: access for WriteReq [dde40:dde47] hit state: e (M) writable: 1 readable: 1 dirty: 1 prefetched: 0 | tag: 0x37 secure: 0 valid: 1 | set: 0x79 way: 0
+1176822: system.l1_icache1: access for ReadReq [840ac:840af] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1177488: system.l1_dcache1: access for ReadReq [ddf70:ddf77] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x37 secure: 0 valid: 1 | set: 0x7d way: 0
+1178154: system.l1_icache1: access for ReadReq [840ac:840af] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1178820: system.l1_icache1: access for ReadReq [840b0:840b3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1179486: system.l1_icache1: access for ReadReq [83ee8:83eeb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1180152: system.l1_icache1: access for ReadReq [83eec:83eef] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1180818: system.l1_icache1: access for ReadReq [83ef0:83ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1181484: system.l1_icache1: access for ReadReq [83ef0:83ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1182150: system.l1_icache1: access for ReadReq [83ef4:83ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1182816: system.l1_dcache1: access for ReadReq [b41bc:b41bf] miss
+1183482: system.l1_dcache1: sendMSHRQueuePacket: MSHR ReadReq [b41bc:b41bf]
+1183482: system.l1_dcache1: createMissPacket: created ReadSharedReq [b4180:b41bf] from ReadReq [b41bc:b41bf]
+1183482: system.l2cache: access for ReadSharedReq [b4180:b41bf] miss
+1190475: system.l2cache: sendMSHRQueuePacket: MSHR ReadSharedReq [b4180:b41bf]
+1190475: system.l2cache: createMissPacket: created ReadSharedReq [b4180:b41bf] from ReadSharedReq [b4180:b41bf]
+1225107: system.l2cache: recvTimingResp: Handling response ReadResp [45180:451bf]
+1225107: system.l2cache: Block for addr 0x45180 being updated in Cache
+1225107: system.l2cache: Block addr 0x45180 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x4 secure: 0 valid: 1 | set: 0x146 way: 0
+1232100: system.l1_dcache0: recvTimingResp: Handling response ReadResp [45180:451bf]
+1232100: system.l1_dcache0: Block for addr 0x45180 being updated in Cache
+1232100: system.l1_dcache0: Block addr 0x45180 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x11 secure: 0 valid: 1 | set: 0x46 way: 0
+1232766: system.l1_icache0: access for ReadReq [14ef4:14ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1233432: system.l1_icache0: access for ReadReq [14ef8:14efb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1234098: system.l1_icache0: access for ReadReq [14f00:14f03] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1234764: system.l1_dcache0: access for ReadReq [6ef80:6ef87] miss
+1235430: system.l1_dcache0: sendMSHRQueuePacket: MSHR ReadReq [6ef80:6ef87]
+1235430: system.l1_dcache0: createMissPacket: created ReadSharedReq [6ef80:6efbf] from ReadReq [6ef80:6ef87]
+1235430: system.l2cache: access for ReadSharedReq [6ef80:6efbf] miss
+1242423: system.l2cache: sendMSHRQueuePacket: MSHR ReadSharedReq [6ef80:6efbf]
+1242423: system.l2cache: createMissPacket: created ReadSharedReq [6ef80:6efbf] from ReadSharedReq [6ef80:6efbf]
+1260072: system.l2cache: recvTimingResp: Handling response ReadResp [b4180:b41bf]
+1260072: system.l2cache: Block for addr 0xb4180 being updated in Cache
+1260072: system.l2cache: Block addr 0xb4180 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0xb secure: 0 valid: 1 | set: 0x106 way: 0
+1267065: system.l1_dcache1: recvTimingResp: Handling response ReadResp [b4180:b41bf]
+1267065: system.l1_dcache1: Block for addr 0xb4180 being updated in Cache
+1267065: system.l1_dcache1: Block addr 0xb4180 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x2d secure: 0 valid: 1 | set: 0x6 way: 0
+1267731: system.l1_icache1: access for ReadReq [83ef4:83ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1268397: system.l1_icache1: access for ReadReq [83ef8:83efb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1269063: system.l1_icache1: access for ReadReq [83f00:83f03] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1269729: system.l1_dcache1: access for ReadReq [ddf80:ddf87] miss
+1270395: system.l1_dcache1: sendMSHRQueuePacket: MSHR ReadReq [ddf80:ddf87]
+1270395: system.l1_dcache1: createMissPacket: created ReadSharedReq [ddf80:ddfbf] from ReadReq [ddf80:ddf87]
+1270395: system.l2cache: access for ReadSharedReq [ddf80:ddfbf] miss
+1277388: system.l2cache: sendMSHRQueuePacket: MSHR ReadSharedReq [ddf80:ddfbf]
+1277388: system.l2cache: createMissPacket: created ReadSharedReq [ddf80:ddfbf] from ReadSharedReq [ddf80:ddfbf]
+1284714: system.l2cache: recvTimingResp: Handling response ReadResp [6ef80:6efbf]
+1284714: system.l2cache: Block for addr 0x6ef80 being updated in Cache
+1284714: system.l2cache: Block addr 0x6ef80 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x6 secure: 0 valid: 1 | set: 0x3be way: 0
+1291707: system.l1_dcache0: recvTimingResp: Handling response ReadResp [6ef80:6efbf]
+1291707: system.l1_dcache0: Block for addr 0x6ef80 being updated in Cache
+1291707: system.l1_dcache0: Block addr 0x6ef80 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1b secure: 0 valid: 1 | set: 0xbe way: 0
+1292373: system.l1_icache0: access for ReadReq [14f00:14f03] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1293039: system.l1_icache0: access for ReadReq [14f04:14f07] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1293705: system.l1_icache0: access for ReadReq [14ee8:14eeb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1294371: system.l1_icache0: access for ReadReq [14eec:14eef] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1295037: system.l1_icache0: access for ReadReq [14ef0:14ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1295703: system.l1_icache0: access for ReadReq [14ef0:14ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1296369: system.l1_icache0: access for ReadReq [14ef4:14ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1297035: system.l1_dcache0: access for ReadReq [451b8:451bb] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x11 secure: 0 valid: 1 | set: 0x46 way: 0
+1297701: system.l1_icache0: access for ReadReq [14ef4:14ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1298367: system.l1_icache0: access for ReadReq [14ef8:14efb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1299033: system.l1_icache0: access for ReadReq [150b4:150b7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1299699: system.l1_dcache0: access for ReadReq [6ef88:6ef8f] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1b secure: 0 valid: 1 | set: 0xbe way: 0
+1300365: system.l1_icache0: access for ReadReq [150b4:150b7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1301031: system.l1_icache0: access for ReadReq [150b8:150bb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1301697: system.l1_icache0: access for ReadReq [150b8:150bb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1302363: system.l1_dcache0: access for WriteReq [6ee38:6ee3f] miss
+1303029: system.l1_dcache0: sendMSHRQueuePacket: MSHR WriteReq [6ee38:6ee3f]
+1303029: system.l1_dcache0: createMissPacket: created ReadExReq [6ee00:6ee3f] from WriteReq [6ee38:6ee3f]
+1303029: system.l2cache: access for ReadExReq [6ee00:6ee3f] miss
+1310022: system.l2cache: sendMSHRQueuePacket: MSHR ReadExReq [6ee00:6ee3f]
+1310022: system.l2cache: createMissPacket: created ReadExReq [6ee00:6ee3f] from ReadExReq [6ee00:6ee3f]
+1319679: system.l2cache: recvTimingResp: Handling response ReadResp [ddf80:ddfbf]
+1319679: system.l2cache: Block for addr 0xddf80 being updated in Cache
+1319679: system.l2cache: Block addr 0xddf80 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0xd secure: 0 valid: 1 | set: 0x37e way: 0
+1326672: system.l1_dcache1: recvTimingResp: Handling response ReadResp [ddf80:ddfbf]
+1326672: system.l1_dcache1: Block for addr 0xddf80 being updated in Cache
+1326672: system.l1_dcache1: Block addr 0xddf80 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x37 secure: 0 valid: 1 | set: 0x7e way: 0
+1327338: system.l1_icache1: access for ReadReq [83f00:83f03] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1328004: system.l1_icache1: access for ReadReq [83f04:83f07] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1328670: system.l1_icache1: access for ReadReq [83ee8:83eeb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1329336: system.l1_icache1: access for ReadReq [83eec:83eef] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1330002: system.l1_icache1: access for ReadReq [83ef0:83ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1330668: system.l1_icache1: access for ReadReq [83ef0:83ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1331334: system.l1_icache1: access for ReadReq [83ef4:83ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1332000: system.l1_dcache1: access for ReadReq [b41b8:b41bb] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x2d secure: 0 valid: 1 | set: 0x6 way: 0
+1332666: system.l1_icache1: access for ReadReq [83ef4:83ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1333332: system.l1_icache1: access for ReadReq [83ef8:83efb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1333998: system.l1_icache1: access for ReadReq [840b4:840b7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1334664: system.l1_dcache1: access for ReadReq [ddf88:ddf8f] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x37 secure: 0 valid: 1 | set: 0x7e way: 0
+1335330: system.l1_icache1: access for ReadReq [840b4:840b7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1335996: system.l1_icache1: access for ReadReq [840b8:840bb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1336662: system.l1_icache1: access for ReadReq [840b8:840bb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1337328: system.l1_dcache1: access for WriteReq [dde38:dde3f] miss
+1337994: system.l1_dcache1: sendMSHRQueuePacket: MSHR WriteReq [dde38:dde3f]
+1337994: system.l1_dcache1: createMissPacket: created ReadExReq [dde00:dde3f] from WriteReq [dde38:dde3f]
+1337994: system.l2cache: access for ReadExReq [dde00:dde3f] miss
+1344987: system.l2cache: sendMSHRQueuePacket: MSHR ReadExReq [dde00:dde3f]
+1344987: system.l2cache: createMissPacket: created ReadExReq [dde00:dde3f] from ReadExReq [dde00:dde3f]
+1352313: system.l2cache: recvTimingResp: Handling response ReadExResp [6ee00:6ee3f]
+1352313: system.l2cache: Block for addr 0x6ee00 being updated in Cache
+1352313: system.l2cache: Block addr 0x6ee00 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x6 secure: 0 valid: 1 | set: 0x3b8 way: 0
+1359306: system.l1_dcache0: recvTimingResp: Handling response ReadExResp [6ee00:6ee3f]
+1359306: system.l1_dcache0: Block for addr 0x6ee00 being updated in Cache
+1359306: system.l1_dcache0: Block addr 0x6ee00 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1b secure: 0 valid: 1 | set: 0xb8 way: 0
+1359972: system.l1_icache0: access for ReadReq [150bc:150bf] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1360638: system.l1_dcache0: access for ReadReq [6ef90:6ef97] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1b secure: 0 valid: 1 | set: 0xbe way: 0
+1361304: system.l1_icache0: access for ReadReq [150bc:150bf] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1361970: system.l1_icache0: access for ReadReq [150c0:150c3] IF miss
+1362636: system.l1_icache0: sendMSHRQueuePacket: MSHR ReadReq [150c0:150c3] IF
+1362636: system.l1_icache0: createMissPacket: created ReadSharedReq [150c0:150ff] IF from ReadReq [150c0:150c3] IF
+1362636: system.l2cache: access for ReadSharedReq [150c0:150ff] IF miss
+1369629: system.l2cache: sendMSHRQueuePacket: MSHR ReadSharedReq [150c0:150ff] IF
+1369629: system.l2cache: createMissPacket: created ReadSharedReq [150c0:150ff] IF from ReadSharedReq [150c0:150ff] IF
+1387278: system.l2cache: recvTimingResp: Handling response ReadExResp [dde00:dde3f]
+1387278: system.l2cache: Block for addr 0xdde00 being updated in Cache
+1387278: system.l2cache: Block addr 0xdde00 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0xd secure: 0 valid: 1 | set: 0x378 way: 0
+1394271: system.l1_dcache1: recvTimingResp: Handling response ReadExResp [dde00:dde3f]
+1394271: system.l1_dcache1: Block for addr 0xdde00 being updated in Cache
+1394271: system.l1_dcache1: Block addr 0xdde00 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x37 secure: 0 valid: 1 | set: 0x78 way: 0
+1394937: system.l1_icache1: access for ReadReq [840bc:840bf] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1395603: system.l1_dcache1: access for ReadReq [ddf90:ddf97] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x37 secure: 0 valid: 1 | set: 0x7e way: 0
+1396269: system.l1_icache1: access for ReadReq [840bc:840bf] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1396935: system.l1_icache1: access for ReadReq [840c0:840c3] IF miss
+1397601: system.l1_icache1: sendMSHRQueuePacket: MSHR ReadReq [840c0:840c3] IF
+1397601: system.l1_icache1: createMissPacket: created ReadSharedReq [840c0:840ff] IF from ReadReq [840c0:840c3] IF
+1397601: system.l2cache: access for ReadSharedReq [840c0:840ff] IF miss
+1404594: system.l2cache: sendMSHRQueuePacket: MSHR ReadSharedReq [840c0:840ff] IF
+1404594: system.l2cache: createMissPacket: created ReadSharedReq [840c0:840ff] IF from ReadSharedReq [840c0:840ff] IF
+1439226: system.l2cache: recvTimingResp: Handling response ReadResp [150c0:150ff] IF
+1439226: system.l2cache: Block for addr 0x150c0 being updated in Cache
+1439226: system.l2cache: Block addr 0x150c0 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1 secure: 0 valid: 1 | set: 0x143 way: 0
+1446219: system.l1_icache0: recvTimingResp: Handling response ReadResp [150c0:150ff] IF
+1446219: system.l1_icache0: Block for addr 0x150c0 being updated in Cache
+1446219: system.l1_icache0: Block addr 0x150c0 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x43 way: 0
+1446885: system.l1_icache0: access for ReadReq [14ee8:14eeb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1447551: system.l1_icache0: access for ReadReq [14eec:14eef] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1448217: system.l1_icache0: access for ReadReq [14ef0:14ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1448883: system.l1_icache0: access for ReadReq [14ef0:14ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1449549: system.l1_icache0: access for ReadReq [14ef4:14ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1450215: system.l1_dcache0: access for ReadReq [451c4:451c7] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x11 secure: 0 valid: 1 | set: 0x47 way: 0
+1450881: system.l1_icache0: access for ReadReq [14ef4:14ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1451547: system.l1_icache0: access for ReadReq [14ef8:14efb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1452213: system.l1_icache0: access for ReadReq [15090:15093] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1452879: system.l1_dcache0: access for ReadReq [6ef98:6ef9f] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1b secure: 0 valid: 1 | set: 0xbe way: 0
+1453545: system.l1_icache0: access for ReadReq [15090:15093] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1454211: system.l1_icache0: access for ReadReq [15094:15097] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1454877: system.l1_icache0: access for ReadReq [15094:15097] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1455543: system.l1_dcache0: access for WriteReq [6ee58:6ee5f] hit state: e (M) writable: 1 readable: 1 dirty: 1 prefetched: 0 | tag: 0x1b secure: 0 valid: 1 | set: 0xb9 way: 0
+1456209: system.l1_icache0: access for ReadReq [15098:1509b] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1456875: system.l1_dcache0: access for ReadReq [6efa0:6efa7] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1b secure: 0 valid: 1 | set: 0xbe way: 0
+1457541: system.l1_icache0: access for ReadReq [15098:1509b] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1458207: system.l1_icache0: access for ReadReq [1509c:1509f] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1458873: system.l1_icache0: access for ReadReq [1509c:1509f] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1459539: system.l1_icache0: access for ReadReq [150a0:150a3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x42 way: 0
+1460205: system.l1_icache0: access for ReadReq [14ee8:14eeb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1460871: system.l1_icache0: access for ReadReq [14eec:14eef] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1461537: system.l1_icache0: access for ReadReq [14ef0:14ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1462203: system.l1_icache0: access for ReadReq [14ef0:14ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1462869: system.l1_icache0: access for ReadReq [14ef4:14ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1463535: system.l1_dcache0: access for ReadReq [45208:4520b] miss
+1464201: system.l1_dcache0: sendMSHRQueuePacket: MSHR ReadReq [45208:4520b]
+1464201: system.l1_dcache0: createMissPacket: created ReadSharedReq [45200:4523f] from ReadReq [45208:4520b]
+1464201: system.l2cache: access for ReadSharedReq [45200:4523f] miss
+1471194: system.l2cache: sendMSHRQueuePacket: MSHR ReadSharedReq [45200:4523f]
+1471194: system.l2cache: createMissPacket: created ReadSharedReq [45200:4523f] from ReadSharedReq [45200:4523f]
+1474191: system.l2cache: recvTimingResp: Handling response ReadResp [840c0:840ff] IF
+1474191: system.l2cache: Block for addr 0x840c0 being updated in Cache
+1474191: system.l2cache: Block addr 0x840c0 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x8 secure: 0 valid: 1 | set: 0x103 way: 0
+1481184: system.l1_icache1: recvTimingResp: Handling response ReadResp [840c0:840ff] IF
+1481184: system.l1_icache1: Block for addr 0x840c0 being updated in Cache
+1481184: system.l1_icache1: Block addr 0x840c0 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x3 way: 0
+1481850: system.l1_icache1: access for ReadReq [83ee8:83eeb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1482516: system.l1_icache1: access for ReadReq [83eec:83eef] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1483182: system.l1_icache1: access for ReadReq [83ef0:83ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1483848: system.l1_icache1: access for ReadReq [83ef0:83ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1484514: system.l1_icache1: access for ReadReq [83ef4:83ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1485180: system.l1_dcache1: access for ReadReq [b41c4:b41c7] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x2d secure: 0 valid: 1 | set: 0x7 way: 0
+1485846: system.l1_icache1: access for ReadReq [83ef4:83ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1486512: system.l1_icache1: access for ReadReq [83ef8:83efb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1487178: system.l1_icache1: access for ReadReq [84090:84093] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1487844: system.l1_dcache1: access for ReadReq [ddf98:ddf9f] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x37 secure: 0 valid: 1 | set: 0x7e way: 0
+1488510: system.l1_icache1: access for ReadReq [84090:84093] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1489176: system.l1_icache1: access for ReadReq [84094:84097] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1489842: system.l1_icache1: access for ReadReq [84094:84097] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1490508: system.l1_dcache1: access for WriteReq [dde58:dde5f] hit state: e (M) writable: 1 readable: 1 dirty: 1 prefetched: 0 | tag: 0x37 secure: 0 valid: 1 | set: 0x79 way: 0
+1491174: system.l1_icache1: access for ReadReq [84098:8409b] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1491840: system.l1_dcache1: access for ReadReq [ddfa0:ddfa7] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x37 secure: 0 valid: 1 | set: 0x7e way: 0
+1492506: system.l1_icache1: access for ReadReq [84098:8409b] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1493172: system.l1_icache1: access for ReadReq [8409c:8409f] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1493838: system.l1_icache1: access for ReadReq [8409c:8409f] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1494504: system.l1_icache1: access for ReadReq [840a0:840a3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0x2 way: 0
+1495170: system.l1_icache1: access for ReadReq [83ee8:83eeb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1495836: system.l1_icache1: access for ReadReq [83eec:83eef] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1496502: system.l1_icache1: access for ReadReq [83ef0:83ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1497168: system.l1_icache1: access for ReadReq [83ef0:83ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1497834: system.l1_icache1: access for ReadReq [83ef4:83ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1498500: system.l1_dcache1: access for ReadReq [b4208:b420b] miss
+1499166: system.l1_dcache1: sendMSHRQueuePacket: MSHR ReadReq [b4208:b420b]
+1499166: system.l1_dcache1: createMissPacket: created ReadSharedReq [b4200:b423f] from ReadReq [b4208:b420b]
+1499166: system.l2cache: access for ReadSharedReq [b4200:b423f] miss
+1506159: system.l2cache: sendMSHRQueuePacket: MSHR ReadSharedReq [b4200:b423f]
+1506159: system.l2cache: createMissPacket: created ReadSharedReq [b4200:b423f] from ReadSharedReq [b4200:b423f]
+1540791: system.l2cache: recvTimingResp: Handling response ReadResp [45200:4523f]
+1540791: system.l2cache: Block for addr 0x45200 being updated in Cache
+1540791: system.l2cache: Block addr 0x45200 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x4 secure: 0 valid: 1 | set: 0x148 way: 0
+1547784: system.l1_dcache0: recvTimingResp: Handling response ReadResp [45200:4523f]
+1547784: system.l1_dcache0: Block for addr 0x45200 being updated in Cache
+1547784: system.l1_dcache0: Block addr 0x45200 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x11 secure: 0 valid: 1 | set: 0x48 way: 0
+1548450: system.l1_icache0: access for ReadReq [14ef4:14ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1549116: system.l1_icache0: access for ReadReq [14ef8:14efb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1549782: system.l1_icache0: access for ReadReq [14ff0:14ff3] IF miss
+1550448: system.l1_icache0: sendMSHRQueuePacket: MSHR ReadReq [14ff0:14ff3] IF
+1550448: system.l1_icache0: createMissPacket: created ReadSharedReq [14fc0:14fff] IF from ReadReq [14ff0:14ff3] IF
+1550448: system.l2cache: access for ReadSharedReq [14fc0:14fff] IF miss
+1557441: system.l2cache: sendMSHRQueuePacket: MSHR ReadSharedReq [14fc0:14fff] IF
+1557441: system.l2cache: createMissPacket: created ReadSharedReq [14fc0:14fff] IF from ReadSharedReq [14fc0:14fff] IF
+1575756: system.l2cache: recvTimingResp: Handling response ReadResp [b4200:b423f]
+1575756: system.l2cache: Block for addr 0xb4200 being updated in Cache
+1575756: system.l2cache: Block addr 0xb4200 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0xb secure: 0 valid: 1 | set: 0x108 way: 0
+1582749: system.l1_dcache1: recvTimingResp: Handling response ReadResp [b4200:b423f]
+1582749: system.l1_dcache1: Block for addr 0xb4200 being updated in Cache
+1582749: system.l1_dcache1: Block addr 0xb4200 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x2d secure: 0 valid: 1 | set: 0x8 way: 0
+1583415: system.l1_icache1: access for ReadReq [83ef4:83ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1584081: system.l1_icache1: access for ReadReq [83ef8:83efb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1584747: system.l1_icache1: access for ReadReq [83ff0:83ff3] IF miss
+1585413: system.l1_icache1: sendMSHRQueuePacket: MSHR ReadReq [83ff0:83ff3] IF
+1585413: system.l1_icache1: createMissPacket: created ReadSharedReq [83fc0:83fff] IF from ReadReq [83ff0:83ff3] IF
+1585413: system.l2cache: access for ReadSharedReq [83fc0:83fff] IF miss
+1592406: system.l2cache: sendMSHRQueuePacket: MSHR ReadSharedReq [83fc0:83fff] IF
+1592406: system.l2cache: createMissPacket: created ReadSharedReq [83fc0:83fff] IF from ReadSharedReq [83fc0:83fff] IF
+1627038: system.l2cache: recvTimingResp: Handling response ReadResp [14fc0:14fff] IF
+1627038: system.l2cache: Block for addr 0x14fc0 being updated in Cache
+1627038: system.l2cache: Block addr 0x14fc0 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1 secure: 0 valid: 1 | set: 0x13f way: 0
+1634031: system.l1_icache0: recvTimingResp: Handling response ReadResp [14fc0:14fff] IF
+1634031: system.l1_icache0: Block for addr 0x14fc0 being updated in Cache
+1634031: system.l1_icache0: Block addr 0x14fc0 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3f way: 0
+1634697: system.l1_dcache0: access for ReadReq [6efb0:6efb7] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1b secure: 0 valid: 1 | set: 0xbe way: 0
+1634697: system.l2cache: recvTimingResp: Handling response ReadResp [83fc0:83fff] IF
+1634697: system.l2cache: Block for addr 0x83fc0 being updated in Cache
+1634697: system.l2cache: Block addr 0x83fc0 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x8 secure: 0 valid: 1 | set: 0xff way: 0
+1635363: system.l1_icache0: access for ReadReq [14ff4:14ff7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3f way: 0
+1636029: system.l1_dcache0: access for ReadReq [6efa8:6efab] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1b secure: 0 valid: 1 | set: 0xbe way: 0
+1636695: system.l1_icache0: access for ReadReq [14ff8:14ffb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3f way: 0
+1637361: system.l1_icache0: access for ReadReq [14ff8:14ffb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3f way: 0
+1638027: system.l1_icache0: access for ReadReq [14ffc:14fff] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3f way: 0
+1638693: system.l1_icache0: access for ReadReq [14ffc:14fff] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3f way: 0
+1639359: system.l1_icache0: access for ReadReq [15000:15003] IF miss
+1640025: system.l1_icache0: sendMSHRQueuePacket: MSHR ReadReq [15000:15003] IF
+1640025: system.l1_icache0: createMissPacket: created ReadSharedReq [15000:1503f] IF from ReadReq [15000:15003] IF
+1640025: system.l2cache: access for ReadSharedReq [15000:1503f] IF miss
+1641690: system.l1_icache1: recvTimingResp: Handling response ReadResp [83fc0:83fff] IF
+1641690: system.l1_icache1: Block for addr 0x83fc0 being updated in Cache
+1641690: system.l1_icache1: Block addr 0x83fc0 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xff way: 0
+1642356: system.l1_dcache1: access for ReadReq [ddfb0:ddfb7] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x37 secure: 0 valid: 1 | set: 0x7e way: 0
+1643022: system.l1_icache1: access for ReadReq [83ff4:83ff7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xff way: 0
+1643688: system.l1_dcache1: access for ReadReq [ddfa8:ddfab] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x37 secure: 0 valid: 1 | set: 0x7e way: 0
+1644354: system.l1_icache1: access for ReadReq [83ff8:83ffb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xff way: 0
+1645020: system.l1_icache1: access for ReadReq [83ff8:83ffb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xff way: 0
+1645686: system.l1_icache1: access for ReadReq [83ffc:83fff] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xff way: 0
+1646352: system.l1_icache1: access for ReadReq [83ffc:83fff] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xff way: 0
+1647018: system.l1_icache1: access for ReadReq [84000:84003] IF miss
+1647018: system.l2cache: sendMSHRQueuePacket: MSHR ReadSharedReq [15000:1503f] IF
+1647018: system.l2cache: createMissPacket: created ReadSharedReq [15000:1503f] IF from ReadSharedReq [15000:1503f] IF
+1647684: system.l1_icache1: sendMSHRQueuePacket: MSHR ReadReq [84000:84003] IF
+1647684: system.l1_icache1: createMissPacket: created ReadSharedReq [84000:8403f] IF from ReadReq [84000:84003] IF
+1647684: system.l2cache: access for ReadSharedReq [84000:8403f] IF miss
+1654677: system.l2cache: sendMSHRQueuePacket: MSHR ReadSharedReq [84000:8403f] IF
+1654677: system.l2cache: createMissPacket: created ReadSharedReq [84000:8403f] IF from ReadSharedReq [84000:8403f] IF
+1689309: system.l2cache: recvTimingResp: Handling response ReadResp [15000:1503f] IF
+1689309: system.l2cache: Block for addr 0x15000 being updated in Cache
+1689309: system.l2cache: Block addr 0x15000 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1 secure: 0 valid: 1 | set: 0x140 way: 0
+1696302: system.l1_icache0: recvTimingResp: Handling response ReadResp [15000:1503f] IF
+1696302: system.l1_icache0: Block for addr 0x15000 being updated in Cache
+1696302: system.l1_icache0: Block addr 0x15000 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x40 way: 0
+1696968: system.l1_icache0: access for ReadReq [14ee8:14eeb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1697634: system.l1_icache0: access for ReadReq [14eec:14eef] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1698300: system.l1_icache0: access for ReadReq [14ef0:14ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1698966: system.l1_icache0: access for ReadReq [14ef0:14ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1699632: system.l1_icache0: access for ReadReq [14ef4:14ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1700298: system.l1_dcache0: access for ReadReq [45210:45213] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x11 secure: 0 valid: 1 | set: 0x48 way: 0
+1700964: system.l1_icache0: access for ReadReq [14ef4:14ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1701630: system.l1_icache0: access for ReadReq [14ef8:14efb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3b way: 0
+1702296: system.l1_icache0: access for ReadReq [14fe0:14fe3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3f way: 0
+1702962: system.l1_dcache0: access for ReadReq [6efc0:6efc7] miss
+1703628: system.l1_dcache0: sendMSHRQueuePacket: MSHR ReadReq [6efc0:6efc7]
+1703628: system.l1_dcache0: createMissPacket: created ReadSharedReq [6efc0:6efff] from ReadReq [6efc0:6efc7]
+1703628: system.l2cache: access for ReadSharedReq [6efc0:6efff] miss
+1710621: system.l2cache: sendMSHRQueuePacket: MSHR ReadSharedReq [6efc0:6efff]
+1710621: system.l2cache: createMissPacket: created ReadSharedReq [6efc0:6efff] from ReadSharedReq [6efc0:6efff]
+1724274: system.l2cache: recvTimingResp: Handling response ReadResp [84000:8403f] IF
+1724274: system.l2cache: Block for addr 0x84000 being updated in Cache
+1724274: system.l2cache: Block addr 0x84000 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x8 secure: 0 valid: 1 | set: 0x100 way: 0
+1731267: system.l1_icache1: recvTimingResp: Handling response ReadResp [84000:8403f] IF
+1731267: system.l1_icache1: Block for addr 0x84000 being updated in Cache
+1731267: system.l1_icache1: Block addr 0x84000 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x21 secure: 0 valid: 1 | set: 0 way: 0
+1731933: system.l1_icache1: access for ReadReq [83ee8:83eeb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1732599: system.l1_icache1: access for ReadReq [83eec:83eef] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1733265: system.l1_icache1: access for ReadReq [83ef0:83ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1733931: system.l1_icache1: access for ReadReq [83ef0:83ef3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1734597: system.l1_icache1: access for ReadReq [83ef4:83ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1735263: system.l1_dcache1: access for ReadReq [b4210:b4213] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x2d secure: 0 valid: 1 | set: 0x8 way: 0
+1735929: system.l1_icache1: access for ReadReq [83ef4:83ef7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1736595: system.l1_icache1: access for ReadReq [83ef8:83efb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfb way: 0
+1737261: system.l1_icache1: access for ReadReq [83fe0:83fe3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xff way: 0
+1737927: system.l1_dcache1: access for ReadReq [ddfc0:ddfc7] miss
+1738593: system.l1_dcache1: sendMSHRQueuePacket: MSHR ReadReq [ddfc0:ddfc7]
+1738593: system.l1_dcache1: createMissPacket: created ReadSharedReq [ddfc0:ddfff] from ReadReq [ddfc0:ddfc7]
+1738593: system.l2cache: access for ReadSharedReq [ddfc0:ddfff] miss
+1745586: system.l2cache: sendMSHRQueuePacket: MSHR ReadSharedReq [ddfc0:ddfff]
+1745586: system.l2cache: createMissPacket: created ReadSharedReq [ddfc0:ddfff] from ReadSharedReq [ddfc0:ddfff]
+1752912: system.l2cache: recvTimingResp: Handling response ReadResp [6efc0:6efff]
+1752912: system.l2cache: Block for addr 0x6efc0 being updated in Cache
+1752912: system.l2cache: Block addr 0x6efc0 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x6 secure: 0 valid: 1 | set: 0x3bf way: 0
+1759905: system.l1_dcache0: recvTimingResp: Handling response ReadResp [6efc0:6efff]
+1759905: system.l1_dcache0: Block for addr 0x6efc0 being updated in Cache
+1759905: system.l1_dcache0: Block addr 0x6efc0 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1b secure: 0 valid: 1 | set: 0xbf way: 0
+1760571: system.l1_icache0: access for ReadReq [14fe4:14fe7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3f way: 0
+1761237: system.l1_dcache0: access for ReadReq [6efb8:6efbf] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1b secure: 0 valid: 1 | set: 0xbe way: 0
+1761903: system.l1_icache0: access for ReadReq [14fe8:14feb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3f way: 0
+1762569: system.l1_icache0: access for ReadReq [14fe8:14feb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3f way: 0
+1763235: system.l1_icache0: access for ReadReq [14fec:14fef] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3f way: 0
+1763901: system.l1_icache0: access for ReadReq [14ff0:14ff3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3f way: 0
+1764567: system.l1_icache0: access for ReadReq [14f04:14f07] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1765233: system.l1_icache0: access for ReadReq [14f08:14f0b] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1765899: system.l1_icache0: access for ReadReq [14f10:14f13] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1766565: system.l1_icache0: access for ReadReq [14f14:14f17] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1767231: system.l1_icache0: access for ReadReq [14f14:14f17] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1767897: system.l1_icache0: access for ReadReq [14f18:14f1b] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1768563: system.l1_icache0: access for ReadReq [14f18:14f1b] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1769229: system.l1_icache0: access for ReadReq [14f1c:14f1f] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1769895: system.l1_dcache0: access for WriteReq [65b58:65b5f] miss
+1770561: system.l1_dcache0: sendMSHRQueuePacket: MSHR WriteReq [65b58:65b5f]
+1770561: system.l1_dcache0: createMissPacket: created ReadExReq [65b40:65b7f] from WriteReq [65b58:65b5f]
+1770561: system.l2cache: access for ReadExReq [65b40:65b7f] miss
+1777554: system.l2cache: sendMSHRQueuePacket: MSHR ReadExReq [65b40:65b7f]
+1777554: system.l2cache: createMissPacket: created ReadExReq [65b40:65b7f] from ReadExReq [65b40:65b7f]
+1787877: system.l2cache: recvTimingResp: Handling response ReadResp [ddfc0:ddfff]
+1787877: system.l2cache: Block for addr 0xddfc0 being updated in Cache
+1787877: system.l2cache: Block addr 0xddfc0 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0xd secure: 0 valid: 1 | set: 0x37f way: 0
+1794870: system.l1_dcache1: recvTimingResp: Handling response ReadResp [ddfc0:ddfff]
+1794870: system.l1_dcache1: Block for addr 0xddfc0 being updated in Cache
+1794870: system.l1_dcache1: Block addr 0xddfc0 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x37 secure: 0 valid: 1 | set: 0x7f way: 0
+1795536: system.l1_icache1: access for ReadReq [83fe4:83fe7] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xff way: 0
+1796202: system.l1_dcache1: access for ReadReq [ddfb8:ddfbf] hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x37 secure: 0 valid: 1 | set: 0x7e way: 0
+1796868: system.l1_icache1: access for ReadReq [83fe8:83feb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xff way: 0
+1797534: system.l1_icache1: access for ReadReq [83fe8:83feb] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xff way: 0
+1798200: system.l1_icache1: access for ReadReq [83fec:83fef] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xff way: 0
+1798866: system.l1_icache1: access for ReadReq [83ff0:83ff3] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xff way: 0
+1799532: system.l1_icache1: access for ReadReq [83f04:83f07] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1800198: system.l1_icache1: access for ReadReq [83f08:83f0b] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1800864: system.l1_icache1: access for ReadReq [83f10:83f13] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1801530: system.l1_icache1: access for ReadReq [83f14:83f17] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1802196: system.l1_icache1: access for ReadReq [83f14:83f17] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1802862: system.l1_icache1: access for ReadReq [83f18:83f1b] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1803528: system.l1_icache1: access for ReadReq [83f18:83f1b] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1804194: system.l1_icache1: access for ReadReq [83f1c:83f1f] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1804860: system.l1_dcache1: access for WriteReq [d4b58:d4b5f] miss
+1805526: system.l1_dcache1: sendMSHRQueuePacket: MSHR WriteReq [d4b58:d4b5f]
+1805526: system.l1_dcache1: createMissPacket: created ReadExReq [d4b40:d4b7f] from WriteReq [d4b58:d4b5f]
+1805526: system.l2cache: access for ReadExReq [d4b40:d4b7f] miss
+1812519: system.l2cache: sendMSHRQueuePacket: MSHR ReadExReq [d4b40:d4b7f]
+1812519: system.l2cache: createMissPacket: created ReadExReq [d4b40:d4b7f] from ReadExReq [d4b40:d4b7f]
+1847151: system.l2cache: recvTimingResp: Handling response ReadExResp [65b40:65b7f]
+1847151: system.l2cache: Block for addr 0x65b40 being updated in Cache
+1847151: system.l2cache: Block addr 0x65b40 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x6 secure: 0 valid: 1 | set: 0x16d way: 0
+1854144: system.l1_dcache0: recvTimingResp: Handling response ReadExResp [65b40:65b7f]
+1854144: system.l1_dcache0: Block for addr 0x65b40 being updated in Cache
+1854144: system.l1_dcache0: Block addr 0x65b40 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x19 secure: 0 valid: 1 | set: 0x6d way: 0
+1854810: system.l1_icache0: access for ReadReq [14f1c:14f1f] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1855476: system.l1_icache0: access for ReadReq [14f20:14f23] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1856142: system.l1_icache0: access for ReadReq [14f20:14f23] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1856808: system.l1_icache0: access for ReadReq [14f24:14f27] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1857474: system.l1_icache0: access for ReadReq [14f28:14f2b] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1858140: system.l1_dcache0: access for WriteReq [6d418:6d41b] miss
+1858806: system.l1_dcache0: sendMSHRQueuePacket: MSHR WriteReq [6d418:6d41b]
+1858806: system.l1_dcache0: createMissPacket: created ReadExReq [6d400:6d43f] from WriteReq [6d418:6d41b]
+1858806: system.l2cache: access for ReadExReq [6d400:6d43f] miss
+1865799: system.l2cache: sendMSHRQueuePacket: MSHR ReadExReq [6d400:6d43f]
+1865799: system.l2cache: createMissPacket: created ReadExReq [6d400:6d43f] from ReadExReq [6d400:6d43f]
+1882116: system.l2cache: recvTimingResp: Handling response ReadExResp [d4b40:d4b7f]
+1882116: system.l2cache: Block for addr 0xd4b40 being updated in Cache
+1882116: system.l2cache: Block addr 0xd4b40 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0xd secure: 0 valid: 1 | set: 0x12d way: 0
+1889109: system.l1_dcache1: recvTimingResp: Handling response ReadExResp [d4b40:d4b7f]
+1889109: system.l1_dcache1: Block for addr 0xd4b40 being updated in Cache
+1889109: system.l1_dcache1: Block addr 0xd4b40 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x35 secure: 0 valid: 1 | set: 0x2d way: 0
+1889775: system.l1_icache1: access for ReadReq [83f1c:83f1f] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1890441: system.l1_icache1: access for ReadReq [83f20:83f23] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1891107: system.l1_icache1: access for ReadReq [83f20:83f23] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1891773: system.l1_icache1: access for ReadReq [83f24:83f27] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1892439: system.l1_icache1: access for ReadReq [83f28:83f2b] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1893105: system.l1_dcache1: access for WriteReq [dc418:dc41b] miss
+1893771: system.l1_dcache1: sendMSHRQueuePacket: MSHR WriteReq [dc418:dc41b]
+1893771: system.l1_dcache1: createMissPacket: created ReadExReq [dc400:dc43f] from WriteReq [dc418:dc41b]
+1893771: system.l2cache: access for ReadExReq [dc400:dc43f] miss
+1900764: system.l2cache: sendMSHRQueuePacket: MSHR ReadExReq [dc400:dc43f]
+1900764: system.l2cache: createMissPacket: created ReadExReq [dc400:dc43f] from ReadExReq [dc400:dc43f]
+1908090: system.l2cache: recvTimingResp: Handling response ReadExResp [6d400:6d43f]
+1908090: system.l2cache: Block for addr 0x6d400 being updated in Cache
+1908090: system.l2cache: Block addr 0x6d400 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x6 secure: 0 valid: 1 | set: 0x350 way: 0
+1915083: system.l1_dcache0: recvTimingResp: Handling response ReadExResp [6d400:6d43f]
+1915083: system.l1_dcache0: Block for addr 0x6d400 being updated in Cache
+1915083: system.l1_dcache0: Block addr 0x6d400 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1b secure: 0 valid: 1 | set: 0x50 way: 0
+1915749: system.l1_icache0: access for ReadReq [14f2c:14f2f] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1916415: system.l1_icache0: access for ReadReq [14f30:14f33] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1917081: system.l1_dcache0: access for WriteReq [65b90:65b93] hit state: e (M) writable: 1 readable: 1 dirty: 1 prefetched: 0 | tag: 0x19 secure: 0 valid: 1 | set: 0x6e way: 0
+1917747: system.l1_icache0: access for ReadReq [14f34:14f37] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1918413: system.l1_icache0: access for ReadReq [14f3c:14f3f] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x5 secure: 0 valid: 1 | set: 0x3c way: 0
+1919079: system.l1_icache0: access for ReadReq [14f40:14f43] IF miss
+1919745: system.l1_icache0: sendMSHRQueuePacket: MSHR ReadReq [14f40:14f43] IF
+1919745: system.l1_icache0: createMissPacket: created ReadSharedReq [14f40:14f7f] IF from ReadReq [14f40:14f43] IF
+1919745: system.l2cache: access for ReadSharedReq [14f40:14f7f] IF miss
+1926738: system.l2cache: sendMSHRQueuePacket: MSHR ReadSharedReq [14f40:14f7f] IF
+1926738: system.l2cache: createMissPacket: created ReadSharedReq [14f40:14f7f] IF from ReadSharedReq [14f40:14f7f] IF
+1943055: system.l2cache: recvTimingResp: Handling response ReadExResp [dc400:dc43f]
+1943055: system.l2cache: Block for addr 0xdc400 being updated in Cache
+1943055: system.l2cache: Block addr 0xdc400 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0xd secure: 0 valid: 1 | set: 0x310 way: 0
+1950048: system.l1_dcache1: recvTimingResp: Handling response ReadExResp [dc400:dc43f]
+1950048: system.l1_dcache1: Block for addr 0xdc400 being updated in Cache
+1950048: system.l1_dcache1: Block addr 0xdc400 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x37 secure: 0 valid: 1 | set: 0x10 way: 0
+1950714: system.l1_icache1: access for ReadReq [83f2c:83f2f] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1951380: system.l1_icache1: access for ReadReq [83f30:83f33] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1952046: system.l1_dcache1: access for WriteReq [d4b90:d4b93] hit state: e (M) writable: 1 readable: 1 dirty: 1 prefetched: 0 | tag: 0x35 secure: 0 valid: 1 | set: 0x2e way: 0
+1952712: system.l1_icache1: access for ReadReq [83f34:83f37] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1953378: system.l1_icache1: access for ReadReq [83f3c:83f3f] IF hit state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x20 secure: 0 valid: 1 | set: 0xfc way: 0
+1954044: system.l1_icache1: access for ReadReq [83f40:83f43] IF miss
+1954710: system.l1_icache1: sendMSHRQueuePacket: MSHR ReadReq [83f40:83f43] IF
+1954710: system.l1_icache1: createMissPacket: created ReadSharedReq [83f40:83f7f] IF from ReadReq [83f40:83f43] IF
+1954710: system.l2cache: access for ReadSharedReq [83f40:83f7f] IF miss
+1961703: system.l2cache: sendMSHRQueuePacket: MSHR ReadSharedReq [83f40:83f7f] IF
+1961703: system.l2cache: createMissPacket: created ReadSharedReq [83f40:83f7f] IF from ReadSharedReq [83f40:83f7f] IF
+1996335: system.l2cache: recvTimingResp: Handling response ReadResp [14f40:14f7f] IF
+1996335: system.l2cache: Block for addr 0x14f40 being updated in Cache
+1996335: system.l2cache: Block addr 0x14f40 (ns) moving from  to state: 6 (E) writable: 1 readable: 1 dirty: 0 prefetched: 0 | tag: 0x1 secure: 0 valid: 1 | set: 0x13d way: 0

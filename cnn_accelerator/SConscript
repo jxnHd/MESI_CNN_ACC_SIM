@@ -1,0 +1,8 @@
+Import('*')
+
+env.Append(CPPPATH=[Dir('src/cnn_accelerator')])
+
+
+Source('cnn_accelerator.cc')
+SimObject('CNNAccelerator.py', sim_objects=['CNNAccelerator'])
+
